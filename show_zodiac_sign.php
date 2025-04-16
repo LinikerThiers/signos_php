@@ -1,6 +1,6 @@
 <?php include('layout/header.php'); ?>
 
-<div class="container mt-5 text-center">
+<div class="container text-center">
 
     <h1 style="color: black;">O seu signo é:</h1>
 
