@@ -14,9 +14,8 @@
 </head>
 
 <body class="bg-light">
-
-    <body class="bg-light">
-        <header class="bg-primary text-white text-center py-2   ">
-            <h1>Bem-vindo ao Descubra seu Signo!</h1>
+        <header class="bg-dark text-white text-center py-2   ">
+            <h1>Descubra seu Signo!</h1>
             <p>Saiba qual é o seu signo do zodíaco com base na sua data de nascimento.</p>
         </header>
+        <main>
