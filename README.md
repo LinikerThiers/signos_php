@@ -43,7 +43,7 @@ Página inicial do site. Apresenta um imput para o usuário escolher a sua data 
 Recebe a data de aniversário por parâmetro e carrega o arquivo XML para buscar e exibir as informações correspondentes. A leitura dos dados é feita com `simplexml_load_file`.
 
 ### `signos.xml`
-Arquivo que contém as informações de todos os signos, estruturado em XML com elementos como `<signo>`, `<dataInicio>`, `<dataFim>`, `<signoNome>`.
+Arquivo que contém as informações de todos os signos, estruturado em XML com elementos como `<signo>`, `<dataInicio>`, `<dataFim>`, `<signoNome>`, `<descricao>`.
 
 Exemplo de estrutura:
 ```xml
@@ -52,6 +52,7 @@ Exemplo de estrutura:
         <dataInicio>21/01</dataInicio>
         <dataFim>18/02</dataFim>
         <signoNome>Aquário</signoNome>
+        <descricao>Original, visionário e independente. Gosta de inovar, pensar fora da caixa e lutar por causas coletivas.</descricao>
     </signo>
   <!-- Outros signos... -->
 </signos>
