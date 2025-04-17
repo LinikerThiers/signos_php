@@ -27,7 +27,7 @@
 
         if ($data_nascimento >= $data_inicio && $data_nascimento <= $data_fim) {
             echo "<h2 style='color: #000000;'>{$signo->signoNome}</h2>";
-            echo "<p style='color: white;'>{$signo->descricao}</p>";
+            echo "<p style='color: black;'>{$signo->descricao}</p>";
             $signo_encontrado = true;
             break;
         }
